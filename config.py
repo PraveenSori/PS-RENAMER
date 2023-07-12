@@ -32,7 +32,7 @@ class Config(object):
    
     # database config
     DB_NAME = os.environ.get("PS-RENAMER","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","https://t.me/praveensori_bot")
  
     # other configs
     BOT_UPTIME  = time.time()
